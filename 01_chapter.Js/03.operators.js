@@ -19,3 +19,15 @@ console.log(a < b);  // Less than
 console.log(a >= b); // Greater than or equal to
 console.log(a <= b); // Less than or equal to
 console.log(a == b); // Equal to
+
+
+
+//Logical Operators
+let marks = 75;
+if (marks >= 60 && marks <= 100) {
+    console.log("You passed the exam!");
+} else {
+    console.log("You failed the exam.");
+}
+
+

@@ -26,3 +26,43 @@ if (size === "L") {
 if (size === "XL") {
     console.log("  Price is Rs. 250.");
 }
+
+
+
+
+let num = 12;
+if((num % 3) === 0 && ( (num+1 == 15) || (num-1 == 11) )) {
+    console.log("safe");
+ } else {
+    console.log("not safe");
+}
+
+
+
+let day = 5;
+//Day of the week system
+switch (day) {
+ case 1:
+  console.log("Monday.");
+  break;
+case 2:
+  console.log("Tuesday.");
+  break;
+case 3:
+  console.log("Wednesday.");
+  break;
+case 4:
+  console.log("Thursday.");
+  break;
+case 5:
+  console.log("Friday.");
+  break;
+case 6:
+  console.log("Saturday , Fun day.");
+  break;
+case 7:
+  console.log("Sunday.");
+  break;
+default:
+  console.log("Invalid day.");
+}
