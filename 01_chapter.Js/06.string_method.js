@@ -1,2 +1,1 @@
-let msg = "apnacollege";
-console.log(msg.slice(-1));
+let msg = "ILoveCoding";

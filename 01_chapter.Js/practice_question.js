@@ -66,3 +66,7 @@ case 7:
 default:
   console.log("Invalid day.");
 }
+
+
+let msg = "hello!";
+console.log(msg.trim().toUpperCase());
