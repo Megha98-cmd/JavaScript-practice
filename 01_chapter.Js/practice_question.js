@@ -70,3 +70,13 @@ default:
 
 let msg = "hello!";
 console.log(msg.trim().toUpperCase());
+
+
+// tic-tac-toe game stste
+let game = [
+        ['X', null,'O'],
+        [null, 'X', null], 
+        ['O', null, 'X']
+       ];
+
+       console.log(game);
