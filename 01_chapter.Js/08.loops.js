@@ -16,5 +16,25 @@ for(let i = 1; i <= 15; i=i+2) {
 
 console.log("backwards");
 
-for(let i =15; i>=1;)
+for(let i =15; i>=1; i--) {
+    console.log(i);
+}
 
+
+//print even numbers
+for (let i = 2; i <= 10; i = i+2) {
+    console.log(i);
+}
+
+
+//Multiplication table for 5
+for(let i =5; i <= 50; i=i+5) {
+    console.log(i);
+}
+   
+let n = prompt("write your number");
+n = parseInt(n);
+
+for(let i=n; i<=10*n; i=i+n) {
+    console.log(i);
+}
