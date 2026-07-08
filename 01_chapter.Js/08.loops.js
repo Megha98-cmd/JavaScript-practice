@@ -76,3 +76,14 @@ let heroes = [
             }
         }
     
+
+        //for-of loop
+        let fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes"];
+
+        for (let fruit of fruits) {
+            console.log(fruit);
+        }
+
+        for(char of "MeghaRajak") {
+            console.log(char);
+        }
