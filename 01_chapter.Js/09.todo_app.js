@@ -25,3 +25,10 @@ while(true) {
     
     request = prompt("Please enter your request");
 }
+
+
+
+//Guessing Game
+const max = prompt("enter the max number");
+
+const random =Math. floor(Math)
