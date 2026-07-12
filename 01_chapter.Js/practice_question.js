@@ -1,3 +1,5 @@
+
+//Practice Ques.1
 let color = "yellow";
 
 //Traffic light system
@@ -12,6 +14,7 @@ if (color === "green") {
 }
 
 
+//Practice Ques.2
 let size = "XL";
 //Popcorn size system
 if (size === "S") {
@@ -29,7 +32,7 @@ if (size === "XL") {
 
 
 
-
+//Practice Ques.3
 let num = 12;
 if((num % 3) === 0 && ( (num+1 == 15) || (num-1 == 11) )) {
     console.log("safe");
@@ -38,7 +41,7 @@ if((num % 3) === 0 && ( (num+1 == 15) || (num-1 == 11) )) {
 }
 
 
-
+//Practice Ques.4
 let day = 5;
 //Day of the week system
 switch (day) {
@@ -72,7 +75,7 @@ let msg = "hello!";
 console.log(msg.trim().toUpperCase());
 
 
-// tic-tac-toe game stste
+// tic-tac-toe game 
 let game = [
         ['X', null,'O'],
         [null, 'X', null], 
