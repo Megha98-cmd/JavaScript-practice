@@ -46,3 +46,15 @@ function getSum(n) {
 
         return sum;
 }
+
+
+//Practice Question 6
+let str = ["hii", "hello", "bye", "goodbye"];
+function concat(str) {
+    let result;
+
+    for (let i=0; i<str.length; i++) {
+        result += str[i];
+    }
+    return result;
+}
