@@ -7,3 +7,13 @@ function printName() {
 }
 
 printName();
+
+
+//function with arguments
+function printInfo(name, age) {
+    console.log(`${name}'s age is ${age}`);
+}
+
+printInfo("Megha Rajak", 19);
+
+
