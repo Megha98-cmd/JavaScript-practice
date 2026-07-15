@@ -58,3 +58,19 @@ function concat(str) {
     }
     return result;
 }
+
+
+//Practice Question 7
+let greet = "hello";
+
+function changeGreet(){
+    let greet = "hii";
+    console.log(greet);
+
+function innerGreet() {
+    console.log(greet);
+}
+innerGreet();
+}
+console.log(greet);
+changeGreet();

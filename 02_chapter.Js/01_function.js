@@ -24,3 +24,23 @@ function calsum(a, b) {
 }
 
 calsum(10, 20);
+
+
+//Block Scope
+let age = 19;
+if (age >= 18) {
+    let str = "Adult";
+    console.log(str);
+}
+
+
+//Lexical Scope
+function outerFunc() {
+    let x = 5;
+    let y = 6;
+    function innerFunc() {
+        console.log(x );
+}
+
+innerFunc();
+}
