@@ -17,3 +17,10 @@ function printInfo(name, age) {
 printInfo("Megha Rajak", 19);
 
 
+//Function Scope
+function calsum(a, b) {
+    let sum = a + b;
+    console.log(sum);
+}
+
+calsum(10, 20);
