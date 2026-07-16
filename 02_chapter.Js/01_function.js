@@ -70,3 +70,45 @@ let greet = function() {
 }
 
 multipleGreet(function() {console.log("nameste")}, 10000);
+
+
+
+let odd = function(n) {
+    console.log(!(n % 2 == 0));
+}
+
+let even = function(n) {
+    console.log(n % 2 == 0);
+}
+
+function oddOrEvenFactory(request) {
+    if(request == "odd") {
+        let odd = function(n) {
+            console.log(!(n % 2 == 0));
+        }
+        return odd;
+    }else if(request == "even") {
+        let even = function(n) {
+            console.log(n % 2 == 0);
+        }
+        return even;
+    }else {
+        console.log("Wrong Request");
+    }
+}
+
+let request = "odd";
+
+//Methods
+const calculator = {
+    num: 55,
+    add: function(a, b) {
+        return a + b;
+    },
+    subtract: function(a, b) {
+        return a - b;
+    },
+    multiply: function(a, b) {
+        return a * b;
+    }
+}
