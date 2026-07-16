@@ -1,6 +1,6 @@
-function hello() {
-    console.log("hello");
-}
+//function hello() {
+    //console.log("hello");
+//}
 
 function printName() {
     console.log("My name is Megha Rajak");
@@ -14,7 +14,7 @@ function printInfo(name, age) {
     console.log(`${name}'s age is ${age}`);
 }
 
-printInfo("Megha Rajak", 19);
+printInfo("Megha", 19);
 
 
 //Function Scope
@@ -35,12 +35,38 @@ if (age >= 18) {
 
 
 //Lexical Scope
-function outerFunc() {
-    let x = 5;
-    let y = 6;
-    function innerFunc() {
-        console.log(x );
+//function outerFunc() {
+  //  let x = 5;
+    //let y = 6;
+   // function innerFunc() {
+       // console.log( x );
+//}
+
+//innerFunc();
+//}
+
+
+//Function Expression
+//let name = "megha";
+
+//let sum = function (a, b) {
+  //  return a + b;
+//}
+
+//let hello = function () {
+  //  console.log("hello");
+//}
+
+
+//Higher order function
+function multipleGreet(func, count) {
+    for( let i=1; i<=count; i++) {
+        func();
+    }
 }
 
-innerFunc();
+let greet = function() {
+    console.log("hello");
 }
+
+multipleGreet(function() {console.log("nameste")}, 10000);
