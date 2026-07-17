@@ -123,7 +123,12 @@ const student = {
     getAvg() {
         console.log(this);
         let avg = (this.english + this.hindi + this.math) / 3;
-        console.log(avg);
+        console.log(`${this.name} average marks is ${avg}`);
     }
 
+}
+
+
+function getAvg() {
+    console.log(this);
 }
