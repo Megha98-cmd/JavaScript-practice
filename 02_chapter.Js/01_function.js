@@ -112,3 +112,18 @@ const calculator = {
         return a * b;
     }
 }
+
+
+const student = {
+    name: "Megha",
+    age: 19,
+    english: 90,
+    hindi: 80,
+    math: 95,
+    getAvg() {
+        console.log(this);
+        let avg = (this.english + this.hindi + this.math) / 3;
+        console.log(avg);
+    }
+
+}
