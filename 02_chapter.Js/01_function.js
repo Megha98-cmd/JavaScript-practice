@@ -69,7 +69,7 @@ let greet = function() {
     console.log("hello");
 }
 
-multipleGreet(function() {console.log("nameste")}, 10000);
+multipleGreet(function() {console.log("nameste")}, 1000);
 
 
 
@@ -114,6 +114,7 @@ const calculator = {
 }
 
 
+//this keyword
 const student = {
     name: "Megha",
     age: 19,
