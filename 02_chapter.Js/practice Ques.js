@@ -74,3 +74,10 @@ innerGreet();
 }
 console.log(greet);
 changeGreet();
+
+
+
+//Practice Question 8
+const square = (n) => n * n;
+
+console.log(square(5));
