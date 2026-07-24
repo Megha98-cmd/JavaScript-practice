@@ -47,11 +47,11 @@ if (age >= 18) {
 
 
 //Function Expression
-//let name = "megha";
+let name = "megha";
 
-//let sum = function (a, b) {
-  //  return a + b;
-//}
+let sum = function (a, b) {
+    return a + b;
+}
 
 //let hello = function () {
   //  console.log("hello");
