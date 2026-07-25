@@ -24,8 +24,8 @@ console.log("Welcome to");
 
 //setInterval 
 
-setInterval( () => {
-    console.log("Megha");
-}, 1000 );
+//setInterval( () => {
+  //  console.log("Megha");
+//}, 1000 );
 
 
