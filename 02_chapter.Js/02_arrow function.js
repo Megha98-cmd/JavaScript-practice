@@ -13,19 +13,19 @@ const mul = (a, b) => a * b;
 
 
 
-//setTimeout
-//console.log("Hii there!");
+setTimeout
+console.log("Hii there!");
 
-//setTimeout(() => {
-  //  console.log("coding");
-//}, 2000);
+setTimeout(() => {
+    console.log("coding");
+}, 2000);
 
-//console.log("Welcome to");
+console.log("Welcome to");
 
-//setInterval 
+setInterval 
 
-//setInterval( () => {
-  //  console.log("Megha");
-//}, 1000 );
+setInterval( () => {
+    console.log("Megha");
+}, 1000 );
 
 
