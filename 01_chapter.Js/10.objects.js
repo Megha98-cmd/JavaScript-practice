@@ -26,21 +26,21 @@ const post = {
 
 
   //Object of objects
-  const classInfo = {
-    aman: {
-        grade: "A+",
-        city: "Delhi"
-    },
-    sharadha:{
-        grade: "0",
-        city: "Mumbai"
-    },
-    karan:{
-        grade: "A",
-        city: "Pune"
-    }
+ // const classInfo = {
+   // aman: {
+     //   grade: "A+",
+       // city: "Delhi"
+    //},
+    //sharadha:{
+      //  grade: "0",
+        //city: "Mumbai"
+    //},
+    //karan:{
+      //  grade: "A",
+        //city: "Pune"
+    //}
 
-   }
+   //}
 
    //Array of objects 
    const classInfo = [
