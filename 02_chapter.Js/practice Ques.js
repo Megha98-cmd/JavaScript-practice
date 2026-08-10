@@ -90,3 +90,10 @@ console.log(square(5));
     clearInterval(id);
     console.log("clear interval ran")
  }, 1000);
+
+
+ //Practice Question 9
+ //let nums = [10, 20, 30, 40, 50];
+
+ //let ans = nums.every((el) => el % 10 == 0);
+ //console.log(ans);
