@@ -20,3 +20,21 @@ let even = [2, 4, 6, 8, 10];
 
 let nums = [...odd, ...even];
 
+//Rest  
+function sum(...args) {
+    //arguments is an array-like object, but not an array
+    for (let i = 0; i < args.length; i++) {
+        console.log("you gave us: ", args[i]);
+    }
+
+}
+
+function min(...args) {
+    return args.reduce((min, el) => {
+        if(min > el) {
+            return el;
+        } else {
+            return min;
+        }
+    });
+}
