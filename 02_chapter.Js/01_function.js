@@ -35,15 +35,15 @@ if (age >= 18) {
 
 
 //Lexical Scope
-//function outerFunc() {
-  //  let x = 5;
-    //let y = 6;
-   // function innerFunc() {
-       // console.log( x );
-//}
+function outerFunc() {
+    let x = 5;
+    let y = 6;
+    function innerFunc() {
+        console.log( x );
+}
 
-//innerFunc();
-//}
+innerFunc();
+}
 
 
 //Function Expression
