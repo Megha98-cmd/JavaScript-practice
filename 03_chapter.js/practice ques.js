@@ -20,7 +20,7 @@ let para2 = document.createElement("p");
 h1.innerText = "I'm in a div";
 para2.innerText = "ME TOO!";
 
-//div.appendChild(h1);
-//div.appendChild(para2);
-//div.classList.add('box');
-//document.body.appendChild(div);
+div.appendChild(h1);
+div.appendChild(para2);
+div.classList.add('box');
+document.body.appendChild(div);
