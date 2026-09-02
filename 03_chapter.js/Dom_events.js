@@ -6,13 +6,17 @@ let btns = document.querySelectorAll("button");
 //};
 
 for (btn of btns) {
-    btn.onclick = sayHello;
-    btn.onmouseenter = function() {
-        console.log("mouse is here");
-    };  
-    console.dir(btn);
-}
+   // btn.onclick = sayHello;
+   // btn.onmouseenter = function() {
+        btn.addEventListener("click", sayHello);
+        btn.addEventListener("click", sayName);
+    }  
+    
 
 function sayHello() {
     alert("Hello World");
+}
+
+function sayName(){
+    alert("My name is Megha");
 }
