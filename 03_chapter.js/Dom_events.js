@@ -1,19 +1,19 @@
-//let btns = document.querySelectorAll("button");
-//console.dir(btn);
+let btns = document.querySelectorAll("button");
+console.dir(btn);
 
-//btn.onclick = function() {
-//  console.log("button was clicked");
-//};
+btn.onclick = function() {
+  console.log("button was clicked");
+};
 
-//for (btn of btns) {
-   // btn.onclick = sayHello;
+for (btn of btns) {
+    btn.onclick = sayHello;
    // btn.onmouseenter = function() {
       //  btn.addEventListener("click", sayHello);
        // btn.addEventListener("click", sayName);
          //btn.addEventListener("dblclick", function () {
           //  console.log(" You Double Clicked me");
        // });
-   // }  
+    }  
     
 
 //function sayHello() {
