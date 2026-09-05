@@ -1,8 +1,8 @@
 
 //Arrow function
-const sum = (a, b) => {
-    console.log(a + b);
-};
+//const sum = (a, b) => {
+  //  console.log(a + b);
+//};
 
 const cube = (n) => {
     return n * n * n;
