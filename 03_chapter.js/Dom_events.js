@@ -16,13 +16,14 @@ for (btn of btns) {
     }  
     
 
-//function sayHello() {
- //   alert("Hello World");
-//}
+function sayHello() {
+    alert("Hello World");
+}
 
-//function sayName(){
- //   alert("My name is Megha");
-//}
+function sayName(){
+    alert("My name is Megha");
+}
+  }
 
 
 //Activity
