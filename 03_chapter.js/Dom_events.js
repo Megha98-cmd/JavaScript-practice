@@ -51,7 +51,7 @@ function getRandomColor() {
 }
 
 //Event listener 
-let btn = document.querySelector("button");
-btn.addEventListener("click", function () {
-  console.log("this");
-  }}
+//let btn = document.querySelector("button");
+//btn.addEventListener("click", function () {
+//  console.log("this");
+//  }}
