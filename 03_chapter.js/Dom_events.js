@@ -49,3 +49,6 @@ function getRandomColor() {
     let color = `rgb(${red}, ${green}, ${blue})`;
     return color;
 }
+
+//Event listener 
+let btn = document.querySelector("button");
