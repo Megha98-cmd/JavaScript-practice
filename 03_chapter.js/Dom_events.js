@@ -28,7 +28,7 @@
 
 //Activity
 
-//let  btn = document.querySelector("button");
+let  btn = document.querySelector("button");
 
 btn.addEventListener("click", function () {
     let h3 = document.querySelector("h3");
@@ -39,7 +39,7 @@ btn.addEventListener("click", function () {
      div.style.backgroundColor = randomColor;
 
     console.log("Color updated");
-//});
+});
 
 function getRandomColor() {
     let red = Math.floor(Math.random() * 256);
@@ -51,7 +51,7 @@ function getRandomColor() {
 }
 
 //Event listener 
-let btn = document.querySelector("button");
-btn.addEventListener("click", function () {
-  console.log("this");
-  }}
+//let btn = document.querySelector("button");
+//btn.addEventListener("click", function () {
+  //console.log("this");
+  //}}
