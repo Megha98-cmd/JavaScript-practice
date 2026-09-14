@@ -5,7 +5,7 @@ for (let i = 0; i < smallImages.length; i++) {
 }
 
 
-//console.dir(document.querySelector("h1"));
+console.dir(document.querySelector("h1"));
 
 //console.dir(document.querySelector("#description"));
 
