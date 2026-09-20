@@ -18,6 +18,6 @@ btn.addEventListener("click", function () {
 let delBtns = document.querySelectorAll(".delete");
 for(delBtn of delBtns){
     delBtn.addEventListener("click", function () {
-         console.log("element deleted")
+        console.log("element deleted")
     });
 }
