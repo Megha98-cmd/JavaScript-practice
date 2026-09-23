@@ -15,6 +15,15 @@ btn.addEventListener("click", function () {
     inp.value = ""; // Clear the input field after adding the task
 });
 
+ul.addEventListener("click", function (event) {
+    if (event.target.nodeName === "BUTTON") {
+        let listItem = event.target.parentElement;
+        listItem.remove();
+        console.log("element deleted");
+    }    
+});
+
+
 //let delBtns = document.querySelectorAll(".delete");
 //for(delBtn of delBtns){
 //    delBtn.addEventListener("click", function () {
