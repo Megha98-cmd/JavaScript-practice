@@ -10,3 +10,12 @@ document.addEventListener("keypress", function() {
         started = true;
     }
 });    
+
+function levelUp() {
+    level++;
+    document.querySelector("#level-title").textContent = "Level " + level;
+    let randomNum = Math.floor(Math.random() * 4);
+    let randomColor = ["red", "blue", "green", "yellow"][randomNum];
+    gameSeq.push(randomColor);
+    console.log(gameSeq);
+}
