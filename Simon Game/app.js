@@ -17,12 +17,20 @@ document.addEventListener("keypress", function() {
     }
 });  
 
-function btnFlash(btn) {
-    btn.classList.add("flash");
+function gameFlash(btn) {
+    btn.classList.add("userFlash");
     setTimeout(function() {
-        btn.classList.remove("flash");
+        btn.classList.remove("Flash");
     }, 250);
 }
+
+function userFlash(btn) {
+    btn.classList.add("userFlash");
+    setTimeout(function() {
+        btn.classList.remove("userFlash");
+    }, 250);
+}
+
 
 function levelUp() {
     level++;
@@ -35,12 +43,16 @@ function levelUp() {
     console.log(randBtn);
     console.log(randColor);
     console.log(randomIdx);
-    btnFlash(randBtn);
+    gameFlash(randBtn);
 }
 
 function btnPress () {
-    console.log("button pressed");
+    console.log(this);
+    let btn = this;
+    userFlash(btn);
 }
 
 let allBtns = document.querySelectorAll(".btn");
-for 
+for (btn of allBtns) {
+    btn.addEventListener("click", btnPress);
+}
