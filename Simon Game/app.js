@@ -37,3 +37,10 @@ function levelUp() {
     console.log(randomIdx);
     btnFlash(randBtn);
 }
+
+function btnPress () {
+    console.log("button pressed");
+}
+
+let allBtns = document.querySelectorAll(".btn");
+for 
