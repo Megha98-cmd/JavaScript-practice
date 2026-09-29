@@ -21,7 +21,7 @@ function btnFlash(btn) {
     btn.classList.add("flash");
     setTimeout(function() {
         btn.classList.remove("flash");
-    }, 1000);
+    }, 250);
 }
 
 function levelUp() {
@@ -29,7 +29,11 @@ function levelUp() {
     h2.innerText = `Level ${level}`;
 
     let randomIdx = Math.floor(Math.random() * 3);
-    let randcolor = btns[randomIdx];
-    let randombtn = document.querySelector(`.${randcolor}`);
-    btnFlash(randombtn);
+    let randColor = btns[randomIdx];
+    let randBtn = document.querySelector(`.${randColor}`);
+
+    console.log(randBtn);
+    console.log(randColor);
+    console.log(randomIdx);
+    btnFlash(randBtn);
 }
