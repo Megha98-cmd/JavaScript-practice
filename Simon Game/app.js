@@ -42,14 +42,29 @@ function levelUp() {
     gameSeq.push(randColor);
     //console.log(randBtn);
     //console.log(randColor);
-    console.log(randBtn);
+    console.log(gameSeq);
     gameFlash(randBtn);
+}
+
+function checkAns(idx) {
+      if (userSeq[idx] === gameSeq[idx]){
+        if (userSeq.length == gameSeq.length) {
+           setTimeout(levelUp, 1000);
+        }
+      } else {
+         h2.innerText = `Game over! Press any key to start.`;
+      }
 }
 
 function btnPress () {
     console.log(this);
     let btn = this;
     userFlash(btn);
+
+    userColor = btn.getAttribute("id");
+    userSeq.push(userColor);
+
+    checkAns(userSeq.length - 1);
 }
 
 let allBtns = document.querySelectorAll(".btn");
