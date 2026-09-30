@@ -33,6 +33,7 @@ function userFlash(btn) {
 
 
 function levelUp() {
+    userSeq = [];
     level++;
     h2.innerText = `Level ${level}`;
 
@@ -40,8 +41,6 @@ function levelUp() {
     let randColor = btns[randomIdx];
     let randBtn = document.querySelector(`.${randColor}`);
     gameSeq.push(randColor);
-    //console.log(randBtn);
-    //console.log(randColor);
     console.log(gameSeq);
     gameFlash(randBtn);
 }
