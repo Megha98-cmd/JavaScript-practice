@@ -7,6 +7,9 @@ function changeColor(color, delay, nextColorChange) {
     }, delay);
 }
 
-changeColor("red", 1000);
-changeColor("blue", 2000);
-changeColor("green", 3000);
+changeColor("red", 1000, () => {
+    changeColor("orange", 1000, () => {
+        changeColor("blue", 1000, () => {
+        });
+    });     
+});
