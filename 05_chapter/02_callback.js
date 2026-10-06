@@ -1,3 +1,15 @@
-h1 = document.querySelector('h1');
+h1 = document.querySelector("h1");
 
-h1.style.color = 'blue';
+setTimeout( () => {
+    h1.style.color = "red";
+}, 1000);
+
+
+setTimeout( () => {
+    h1.style.color = "blue";
+}, 1000);
+
+
+setTimeout( () => {
+    h1.style.color = "green";
+}, 1000);
