@@ -21,3 +21,6 @@ savetoDb(
         console.log(" failure : weak connection. data not saved");
     }
 );
+
+
+function savetoDb(data) {)
