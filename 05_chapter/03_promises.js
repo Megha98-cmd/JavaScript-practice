@@ -33,5 +33,3 @@ function savetoDb(data) {
         }
     });
 }
-
-savetoDb("Megha Rajak")
