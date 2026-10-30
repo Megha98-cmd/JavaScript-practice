@@ -1,29 +1,29 @@
-//let btns = document.querySelectorAll("button");
-//console.dir(btn);
+let btns = document.querySelectorAll("button");
+console.dir(btn);
 
-//btn.onclick = function() {
+btn.onclick = function() {
   //console.log("button was clicked");
-//};
+};
 
-//for (btn of btns) {
-//    btn.onclick = sayHello;
-  //  btn.onmouseenter = function() {
-  //    btn.addEventListener("click", sayHello);
-    //    btn.addEventListener("click", sayName);
-      //   btn.addEventListener("dblclick", function () {
-        //    console.log(" You Double Clicked me");
-       // });
-   // }  
+for (btn of btns) {
+    btn.onclick = sayHello;
+    btn.onmouseenter = function() {
+      btn.addEventListener("click", sayHello);
+        btn.addEventListener("click", sayName);
+         btn.addEventListener("dblclick", function () {
+            console.log(" You Double Clicked me");
+        });
+   }  
     
 
-//function sayHello() {
-  //  alert("Hello World");
-//}
+function sayHello() {
+    alert("Hello World");
+}
 
-//function sayName(){
-  //  alert("My name is Megha");
-//}
-  //}
+function sayName(){
+    alert("My name is Megha");
+}
+  }
 
 
 //Activity
@@ -51,7 +51,8 @@ function getRandomColor() {
 }
 
 //Event listener 
-//let btn = document.querySelector("button");
-//btn.addEventListener("click", function () {
-  //console.log("this");
-  //}}
+let btn = document.querySelector("button");
+btn.addEventListener("click", function () {
+  console.log("this");
+  
+}}
