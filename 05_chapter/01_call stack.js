@@ -1,7 +1,7 @@
-function hello() {
-    console.log("inside hello function");
-    console.log('Hello, world!');
-}
+//function hello() {
+  //  console.log("inside hello function");
+    //console.log('Hello, world!');
+//}
 
 function demo() {
     console.log("calling hello function");
