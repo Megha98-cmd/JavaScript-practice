@@ -3,10 +3,10 @@
     //console.log('Hello, world!');
 //}
 
-function demo() {
-    console.log("calling hello function");
-    hello();
-}
+//function demo() {
+  //  console.log("calling hello function");
+    //hello();
+//}
 
 
 console.log("calling demo function");
