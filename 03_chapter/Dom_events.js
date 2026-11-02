@@ -28,18 +28,18 @@ btn.onclick = function() {
 
 //Activity
 
-//let  btn = document.querySelector("button");
+let  btn = document.querySelector("button");
 
-//btn.addEventListener("click", function () {
-  //  let h3 = document.querySelector("h3");
-    //let randomColor = getRandomColor();
-    //h3.innerText = randomColor;
+btn.addEventListener("click", function () {
+    let h3 = document.querySelector("h3");
+    let randomColor = getRandomColor();
+    h3.innerText = randomColor;
 
-     //let div = document.querySelector("div");
-     //div.style.backgroundColor = randomColor;
+     let div = document.querySelector("div");
+     div.style.backgroundColor = randomColor;
 
-    //console.log("Color updated");
-//});
+    console.log("Color updated");
+});
 
 function getRandomColor() {
     let red = Math.floor(Math.random() * 256);
