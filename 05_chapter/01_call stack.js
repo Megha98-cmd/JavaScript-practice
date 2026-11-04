@@ -11,7 +11,7 @@ hello();
 
 console.log("calling demo function");
 demo();
-/console.log("done, bye!");
+console.log("done, bye!");
 
 
 
