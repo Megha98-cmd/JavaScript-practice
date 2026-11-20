@@ -9,4 +9,4 @@ for (let i = 0; i < smallImages.length; i++) {
 
 //console.dir(document.querySelector("#description"));
 
- console.dir(document.querySelector(".oldname"));
+ //console.dir(document.querySelector(".oldname"));
