@@ -26,7 +26,7 @@ ul.addEventListener("click", function (event) {
 
 let delBtns = document.querySelectorAll(".delete");
 for(delBtn of delBtns){
-//    delBtn.addEventListener("click", function () {
-//        console.log("element deleted")
-//    });
+    delBtn.addEventListener("click", function () {
+        console.log("element deleted")
+    });
 }
